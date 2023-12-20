@@ -23,7 +23,7 @@
                 if(data.weather[0].main == "Clouds"){
                 weatherIcon.src="./images/clouds.png";
                 } else if(data.weather[0].main == "Clear"){
-                    weatherIcon.src="./images/Clear.png";
+                    weatherIcon.src="./images/clear.png";
                 }else if(data.weather[0].main == "Rain"){
                     weatherIcon.src="./images/rain.png";
                 }else if(data.weather[0].main == "Drizzle"){
